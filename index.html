@@ -8,6 +8,7 @@
     <title>Tea House</title>
     <!-- tailwindcss link -->
     <script src="https://cdn.tailwindcss.com"></script>
+
     <!-- fontawsone kit -->
     <script src="https://kit.fontawesome.com/00cba11e9a.js" crossorigin="anonymous"></script>
 </head>
@@ -15,30 +16,42 @@
 <body>
     <header>
         <!-- nav bar -->
-      <!-- ------------------------------------------------------
-        --------this is developed by only tailwind -----------
-    ---------------------------------------------------------- -->
+<!-- this is developed by only tailwind  -->
 
         <!-- banner section -->
         <section class="container mx-auto px-16 pt-10 md:px-36 md:flex">
-            <div class="flex items-center">
-                <div class="">
-                    <h1 class="font-semibold text-5xl md:text-7xl">
+            <div class="md:flex items-center">
+                <div class="w-11/12 mb-4">
+                    <h1 class="font-bold text-4xl md:text-7xl">
                         It's good <br> tea time at The <br> Tea House
                     </h1>
                     <p class="py-5 w-3/4">
                         Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
                     </p>
-                    <button class="text-white bg-gradient-to-r from-orange-400 to-orange-600 px-5 py-2 rounded-lg">
-                        Explore More
+                    <button class="text-white bg-gradient-to-r from-orange-400 via-orange-600 to-red-600 px-4 py-1 rounded-lg">
+                        <div class="flex items-center px-5 py-4">
+                            <h5 class="font-bold text-xl">
+                                Explore More
+                            </h5>
+                            <img class="w-6 h-6 ml-5" src="./images/arrow.png" alt="">
+                        </div>
                     </button>
                 </div>
-            </div>
-            <div>
-                <img src="./images/banner.png" alt="">
+                <div class="relative">
+                    <div>
+                        <img src="./images/banner.png" alt="">
+                    </div>
+                    <div class="absolute bg-white shadow rounded-lg mx-auto -mt-20 ml-4 px-4 py-4 z-20">
+                        <div class="flex justify-center items-center">
+                            <img class="w-9 h-9 mr-4" src="./images/Group 5.png" alt="">
+                        <div>
+                            <h1 class="font-extrabold text-3xl">5.00</h1>
+                        <p>Trust Pilot Ratings</p>
+                        </div>
+                        </div>
+                    </div>
                 <div>
-
-                </div>
+                    
             </div>
 
         </section>
@@ -62,22 +75,22 @@
 
             </div>
             <div class="flex flex-col md:flex-row gap-4">
-                <div class="bg-slate-100 text-center pb-4">
+                <div class="bg-gradient-to-b from-stone-200 via-stone-100 to-white rounded-lg text-center pb-4">
                     <img class="mx-auto pt-4" src="./images/tea-1.png" alt="">
                     <h5 class="text-2xl font-bold">Milk Tea</h5>
                     <p class="px-3">Creamer could be replaced by fresh milk</p>
                 </div>
-                <div class="bg-slate-100 text-center pb-4">
+                <div class="bg-gradient-to-b from-stone-200 via-stone-100 to-white rounded-lg text-center pb-4">
                     <img class="mx-auto pt-4" src="./images/tea-2.png" alt="">
                     <h5 class="text-2xl font-bold">Black Tea</h5>
                     <p class="px-3">Creamer could be replaced by fresh milk</p>
                 </div>
-                <div class="bg-slate-100 text-center pb-4">
+                <div class="bg-gradient-to-b from-stone-200 via-stone-100 to-white rounded-lg text-center pb-4">
                     <img class="mx-auto pt-4" src="./images/tea-3.png" alt="">
                     <h5 class="text-2xl font-bold">Lemon Tea</h5>
                     <p class="px-3">Creamer could be replaced by fresh milk</p>
                 </div>
-                <div class="bg-slate-100 text-center pb-4">
+                <div class="bg-gradient-to-b from-stone-200 via-stone-100 to-white rounded-lg text-center pb-4">
                     <img class="mx-auto pt-4" src="./images/tea-4.png" alt="">
                     <h5 class="text-2xl font-bold">Green Tea</h5>
                     <p class="px-3">Creamer could be replaced by fresh milk</p>
@@ -119,32 +132,34 @@
         </section>
         <!-- grid great tea secation end  -->
         <!-- super client section stsart -->
-        <section class="flex justify-center">
-            <div class="grid grid-cols-1 md:grid-cols-2 bg-orange-600 px-16 py-20  md:w-5/6">
+        <section class="container mx-auto px-1 pt-10 md:px-36 md:flex justify-center rounded-lg">
+            <div class="grid grid-cols-1 md:grid-cols-2 bg-gradient-to-r from-orange-400 via-orange-600 to-red-600">
                 <!-- super client info -->
-                <div class="flex items-center text-white">
-                    <div class="pl-4">
-                        <h1 class="text-3xl">Meet Our Super Clients</h1>
-                        <p class="w-5/6 my-5">There are many variations of passages of Lorem Ipsum available, but the
+                <div class="flex items-center justify-center text-white py-14">
+                    <div class="w-[90%]">
+                        <h1 class="text-4xl font-bold">Meet Our Super <br> Clients</h1>
+                        <p class="my-5">There are many variations of passages of Lorem Ipsum available, but the
                             majority
                             have suffered alteration in some form, by injected humour, or randomised words which don't
                             look
                             even slightly believable.</p>
-                        <button class=" font-semibold bg-white text-orange-600 py-3 px-4 rounded-lg">Show All</button>
+                        <button class=" font-semibold bg-white py-3 px-4 rounded-lg">
+                            <h5 class="bg-gradient-to-r from-orange-400 via-orange-600 to-red-600 text-transparent bg-clip-text font-bold text-lg">Show All</h5> 
+                        </button>
                     </div>
                 </div>
                 <!-- review section -->
 
 
-                <div class="relative mt-20">
+                <div class="relative py-20">
                     <!-- middle review -->
-                    <div class="absolute top-28 -left-9">
+                    <div class="absolute top-52 -left-11">
                         <div class="relative z-10">
-                            <div class="absolute -top-8 -left-5">
-                                <img src="./images/client.png" alt="">
+                            <div class="absolute -top-8 left-12">
+                                <img class="bg-white border-4 border-white rounded-full" src="./images/client.png" alt="">
                             </div>
-                            <div class="flex items-center">
-                                <div class="w-3/4 bg-white rounded-lg  pl-5 py-10">
+                            <div class="flex items-center justify-center">
+                                <div class="w-3/4 bg-white rounded-lg px-5 py-10">
                                     <p class="mb-5">We are providing the best and suitable home insurance services for
                                         the people who are
                                         interested to treatment</p>
@@ -157,12 +172,12 @@
                     <!-- middle end -->
                     <!-- top review start -->
                     <div class="relative">
-                        <div class="relative left-32 opacity-40">
-                            <div class="absolute -top-8 -left-5">
-                                <img src="./images/client.png" alt="">
+                        <div class="relative pr-4 opacity-40">
+                            <div class="absolute -top-8 left-28">
+                                <img class="bg-white border-4 border-white rounded-full" src="./images/client.png" alt="">
                             </div>
-                            <div class="flex items-center">
-                                <div class="w-3/4 bg-white rounded-lg  pl-5 py-10">
+                            <div class="flex items-center justify-end">
+                                <div class="w-3/4 bg-white rounded-lg pl-5 py-10">
                                     <p class="mb-5">2We are providing the best and suitable home insurance services for
                                         the people who are
                                         interested to treatment</p>
@@ -173,12 +188,12 @@
                         </div>
                         <!-- top review end -->
                         <!-- bottom review start -->
-                        <div class="relative left-32 opacity-40 top-10">
-                            <div class="absolute -top-8 -left-5">
-                                <img src="./images/client.png" alt="">
+                        <div class="relative pr-4 opacity-40 top-10">
+                            <div class="absolute -top-8 left-28">
+                                <img class="bg-white border-4 border-white rounded-full" src="./images/client.png" alt="">
                             </div>
-                            <div class="flex items-center">
-                                <div class="w-3/4 bg-white rounded-lg  pl-5 py-10">
+                            <div class="flex items-center justify-end">
+                                <div class="w-3/4 bg-white rounded-lg pl-5 pt-10">
                                     <p class="mb-5">3We are providing the best and suitable home insurance services for
                                         the people who are
                                         interested to treatment</p>
@@ -255,7 +270,7 @@
     </main>
     <!-- main body section end -->
     <!-- footer started -->
-    <footer class="bg-red-50 mx-auto px-16 pt-10 md:px-36">
+    <footer class="container bg-red-50 mx-auto px-16 pt-10 md:px-36">
         <div class="grid md:grid-cols-2 gap-4">
             <!-- foooter left container  -->
             <div class="">
@@ -292,7 +307,7 @@
                     <h4 class="flex items-center mr-10">
                         Ready to get started?
                     </h4>
-                    <button class="bg-orange-600 px-3 py-2 text-white rounded-lg">
+                    <button class="bg-gradient-to-r from-orange-400 via-orange-600 to-red-600 px-3 py-2 text-white rounded-lg">
                         Get Started </button>
                 </div>
                 <div class="grid grid-cols-2 mt-11">
@@ -309,7 +324,7 @@
                         </h1>
                         <div class="flex">
                             <input class="bg-transparent border-b-2 border-black text-white" type="email" placeholder="Email Address">
-                            <i class="fa-solid fa-chevron-right bg-orange-600 p-3 rounded-full text-white"></i>
+                            <i class="fa-solid fa-chevron-right bg-gradient-to-r from-orange-400 via-orange-600 to-red-600 p-3 rounded-full text-white"></i>
                         </div>
                         <div class="flex justify-between w-28 mt-4">
                             <i class="fa-brands fa-facebook-f"></i>
